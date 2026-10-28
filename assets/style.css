@@ -149,3 +149,9 @@ footer .small{opacity:.85}
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){*{transition:none!important;scroll-behavior:auto}.reveal{opacity:1;transform:none}}
+
+/* v4: construction timeline + suite-plan lines */
+.timeline{list-style:none;padding:0;margin:1em 0}
+.timeline li{margin:.55em 0;font-size:1.06rem;background:var(--cream);border-left:5px solid var(--gold);border-radius:12px;padding:10px 16px 10px 2.6em;position:relative;box-shadow:0 2px 8px rgba(30,25,10,.05)}
+.timeline li::before{content:"✓";position:absolute;left:.9em;top:10px;color:var(--gold2);font-weight:800}
+.plan-line{display:block;margin-top:.5em;font-size:1rem}
