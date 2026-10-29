@@ -140,6 +140,11 @@ table.suites tr td:first-child{font-weight:700}
 footer{background:#0d0d0b;color:#fff;margin-top:52px;padding:28px 0 96px}
 footer a{color:var(--goldbright)}
 footer .small{opacity:.85}
+.brokerage{display:inline-block;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:10px;padding:8px 14px;margin-top:8px;line-height:0;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.brokerage img{height:46px;width:auto;display:block}
+.brokerage.sm{padding:6px 10px;margin:10px 0 0}
+.brokerage.sm img{height:36px}
+@media(max-width:700px){.brokerage img{height:38px}.brokerage.sm img{height:32px}}
 .callbar{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.97);border-top:1px solid #ddd;display:none;z-index:30;box-shadow:0 -4px 16px rgba(0,0,0,.1)}
 .callbar a{flex:1;text-align:center;padding:14px 4px;font-weight:800;color:#7a5f0e;text-decoration:none;border-right:1px solid #eee}
 .callbar a:first-child{background:var(--black);color:var(--goldbright)}
