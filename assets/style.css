@@ -88,13 +88,13 @@ h3{font-size:1.28rem;margin:1.2em 0 .4em}
 .cmp-label.left{left:10px}.cmp-label.right{right:10px;background:rgba(168,134,26,.92)}
 .compare input[type=range]{position:absolute;left:0;right:0;bottom:8px;width:calc(100% - 24px);margin:0 12px;accent-color:var(--gold);z-index:3;cursor:ew-resize}
 
-/* 35% reserved progress */
+/* 45% reserved progress */
 .reserved{margin-top:20px;background:var(--cream);border:1px solid var(--sand2);border-radius:16px;padding:16px 18px}
 .reserved-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .reserved-top strong{font-family:"Fraunces",Georgia,serif;font-size:1.12rem;color:var(--black)}
 .reserved-top span{font-weight:800;color:#7a5f0e}
 .reserved-bar{height:14px;background:#fff;border:1px solid var(--sand2);border-radius:999px;overflow:hidden;margin:9px 0 7px}
-.reserved-fill{height:100%;width:35%;background:linear-gradient(90deg,var(--goldbright),var(--gold2));border-radius:999px}
+.reserved-fill{height:100%;width:45%;background:linear-gradient(90deg,var(--goldbright),var(--gold2));border-radius:999px}
 .reserved p{margin:0;font-weight:600;color:#5c4d10}
 
 /* Included-value checklist */
